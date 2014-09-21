@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <script src="AcidJs.XChord/lib/x-tag-components.js"></script>
+    <script src="AcidJs.XChord/lib/jquery-2.1.1.min.js"></script>
+    <link rel="import" href="AcidJs.XChord/classes/XChord.html"/>
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1 class="center">Artist Name - Song Title</h1>
+<br/>
+
+<div id="current-chord" class="center">
+    <h2>E</h2>
+
+    <div id="xchord" style="text-align: left; margin-left: auto; margin-right: auto; width: 240px">
+        <acidjs-xchord>
+            <acidjs-xchord-string key="e" state="empty" fret="0"></acidjs-xchord-string>
+            <acidjs-xchord-string key="a" state="pressed" fret="2"></acidjs-xchord-string>
+            <acidjs-xchord-string key="d" state="pressed" fret="2"></acidjs-xchord-string>
+            <acidjs-xchord-string key="g" state="pressed" fret="1"></acidjs-xchord-string>
+            <acidjs-xchord-string key="b" state="empty" fret="0"></acidjs-xchord-string>
+            <acidjs-xchord-string key="e" state="empty" fret="0"></acidjs-xchord-string>
+        </acidjs-xchord>
+    </div>
+</div>
+</body>
+</html>
